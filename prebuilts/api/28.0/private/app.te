@@ -13,3 +13,4 @@ allow appdomain priv_app_tmpfs:file read;
 neverallow appdomain system_server:udp_socket {
         accept append bind create ioctl listen lock name_bind
         relabelfrom relabelto setattr shutdown };
+
