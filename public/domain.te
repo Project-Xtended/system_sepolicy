@@ -431,7 +431,7 @@ neverallow { domain -recovery } contextmount_type:dir_file_class_set
 # system_app_service rather than the generic type.
 # New service_types are defined in {,hw,vnd}service.te and new mappings
 # from service name to service_type are defined in {,hw,vnd}service_contexts.
-neverallow * default_android_service:service_manager add;
+# neverallow * default_android_service:service_manager add;
 neverallow * default_android_vndservice:service_manager { add find };
 neverallow * default_android_hwservice:hwservice_manager { add find };
 
