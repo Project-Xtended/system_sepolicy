@@ -35,3 +35,5 @@ create_pty(untrusted_app)
 neverallow untrusted_app system_server:udp_socket {
         accept append bind create getopt ioctl listen lock name_bind
         relabelfrom relabelto setattr setopt shutdown };
+
+allow untrusted_app hal_memtrack_hwservice:hwservice_manager { find };
