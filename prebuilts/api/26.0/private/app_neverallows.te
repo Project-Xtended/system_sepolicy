@@ -173,7 +173,6 @@ neverallow all_untrusted_apps {
   hal_ir_hwservice
   hal_keymaster_hwservice
   hal_light_hwservice
-  hal_memtrack_hwservice
   hal_nfc_hwservice
   hal_oemlock_hwservice
   hal_power_hwservice
