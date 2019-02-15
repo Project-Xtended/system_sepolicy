@@ -98,6 +98,7 @@
     storaged_data_file
     sudaemon
     sysfs_disk_stat
+    sysfs_fs_f2fs
     system_boot_reason_prop
     system_update_service
     test_boot_reason_prop
