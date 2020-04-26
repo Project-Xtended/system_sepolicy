@@ -77,6 +77,7 @@ type restorecon_prop, property_type, core_property_type;
 type safemode_prop, property_type;
 type serialno_prop, property_type;
 type shell_prop, property_type, core_property_type;
+type spectrum_prop, property_type;
 type system_boot_reason_prop, property_type;
 type system_prop, property_type, core_property_type;
 type system_radio_prop, property_type, core_property_type;
@@ -452,6 +453,7 @@ compatible_property_only(`
     -safemode_prop
     -serialno_prop
     -shell_prop
+    -spectrum_prop
     -system_boot_reason_prop
     -system_prop
     -system_radio_prop

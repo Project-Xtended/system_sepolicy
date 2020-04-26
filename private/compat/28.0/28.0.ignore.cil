@@ -133,6 +133,7 @@
     system_suspend_control_service
     system_trace_prop
     staging_data_file
+    spectrum_prop
     task_profiles_file
     testharness_service
     test_harness_prop
