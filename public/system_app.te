@@ -5,4 +5,7 @@
 ###
 
 type system_app, domain;
-allow system_app theme_prop:file { read write };
+allow system_app theme_prop:file { read };
+allow system_app theme_prop:property_service set;
+get_prop(system_app, theme_prop);
+set_prop(system_app, theme_prop);
