@@ -194,6 +194,9 @@ recovery_only(`
   allow shell rootfs:file rx_file_perms;
 ')
 
+# Allow shell to read syslog
+allow shell kernel:system syslog_read;
+
 ###
 ### Neverallow rules
 ###
