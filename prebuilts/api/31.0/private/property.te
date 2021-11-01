@@ -46,7 +46,7 @@ system_internal_prop(ctl_odsign_prop)
 treble_sysprop_neverallow(`
 
 enforce_sysprop_owner(`
-  neverallow { domain -init -dumpstate } {
+  neverallow domain {
     property_type
     -system_property_type
     -product_property_type
